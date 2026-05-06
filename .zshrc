@@ -15,7 +15,9 @@ plugins=(
 	zsh-syntax-highlighting
 	you-should-use
 	fdfind
+	cho-alias
 )
 
 source $ZSH/oh-my-zsh.sh
 # source /usr/share/autojump/autojump.sh
+alias skelgit='/usr/bin/git --git-dir=/root/.skel-dotfiles.git --work-tree=/etc/skel'
