@@ -8,4 +8,7 @@ set cursorline
 highlight LineNr ctermfg=DarkGray
 highlight clear CursorLine
 highlight LineNr ctermfg=242 guifg=#666666
+highlight CursorLine ctermbg=NONE guibg=NONE
+highlight CursorLineNR ctermbg=NONE guibg=NONE
+
 highlight CursorLineNr ctermfg=yellow cterm=bold guifg=#ffff00 gui=bold
